@@ -14,12 +14,14 @@ Mahmood K, Webb GI, Song J, Whisstock JC, Konagurthu AS. Efficient large-scale p
 
 Installation and availability:
 
-afree executable are available from http://www.vicbioinformatics.com/software.afree.shtml
+afree executable are available from http://www.vicbioinformatics.com/software.afree.shtml and https://github.com/khalidm/afree/releases/tag/afree_v2.0
 
-$ wget https://github.com/khalidm/afree/archive/master.zip
-$ unzip master.zip
-$ cd afree-master
-$ make
+The following commands will install afree in a local directory on an UNIX or OS X systems.
+
+	$ wget https://github.com/khalidm/afree/archive/afree_v2.0.zip
+	$ unzip afree_v2.0.zip
+	$ cd afree_v2.0
+	$ make
 
 EXAMPLE:
 
