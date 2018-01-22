@@ -20,7 +20,7 @@ afree executable are available from http://www.vicbioinformatics.com/software.af
 EXAMPLE:
 
 	Usage:
-		afree -g1 <fasta file1> -g2 <fasta file2> -o <output file name> -c <SD-score threshold ( 10<c<100 default 10)> -k <k-word size (default+recommended 5)>
+		afree -g1 <fasta_1> -g2 <fasta_2> -o <output file> -c <SD-score ( 10<c<100 default 10)> -k <k-word size(default+recommended 5)>
 
 	Example:
         The example folder contains the following FASTA files.
