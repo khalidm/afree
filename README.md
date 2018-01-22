@@ -1,24 +1,21 @@
 # afree
 
-****************************
+<!-- ****************************
 afree_v2.0             
-****************************
+**************************** -->
 
-afree: a tool for rapid large-scale protein sequence comparison
+afree: a tool for rapid large-scale all-against-all protein sequence comparison.
 
-GENERAL INFORMATION:
-	The afree tool takes two FASTA formatted files containing protein sequences as input and calculates
-	their all-against-all sequence similarity.
+The afree tool takes two FASTA formatted files containing protein sequences as input and calculates
+their all-against-all sequence similarity.
 
-    Cite:
-    Mahmood K, Webb GI, Song J, Whisstock JC, Konagurthu AS. Efficient large-scale protein sequence comparison and gene matching to identify orthologs and co-orthologs. Nucleic Acids Research. 2012;40(6):e44. doi:10.1093/nar/gkr1261.
-
+Cite:
+Mahmood K, Webb GI, Song J, Whisstock JC, Konagurthu AS. Efficient large-scale protein sequence comparison and gene matching to identify orthologs and co-orthologs. Nucleic Acids Research. 2012;40(6):e44. doi:10.1093/nar/gkr1261.
 
 AVAILIBILITY:
-    	afree executable are available from http://www.vicbioinformatics.com/software.afree.shtml
 
-REQUIREMENTS:
-	* Tested on Mac OSX (Intel) and Linux systems.
+afree executable are available from http://www.vicbioinformatics.com/software.afree.shtml
+
 
 EXAMPLE:
 
@@ -50,3 +47,5 @@ EXAMPLE:
 		960627715	960627122	70.4
 		960627122	1009027271	64.9
 		1009027271	960627122	64.9
+
+	Tested on Mac OSX (Intel) and Linux systems.
