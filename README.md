@@ -12,15 +12,19 @@ their all-against-all sequence similarity.
 Cite:
 Mahmood K, Webb GI, Song J, Whisstock JC, Konagurthu AS. Efficient large-scale protein sequence comparison and gene matching to identify orthologs and co-orthologs. Nucleic Acids Research. 2012;40(6):e44. doi:10.1093/nar/gkr1261.
 
-AVAILIBILITY:
+Installation and availability:
 
 afree executable are available from http://www.vicbioinformatics.com/software.afree.shtml
 
+$ wget https://github.com/khalidm/afree/archive/master.zip
+$ unzip master.zip
+$ cd afree-master
+$ make
 
 EXAMPLE:
 
 	Usage:
-		afree -g1 <fasta_1> -g2 <fasta_2> -o <output file> -c <SD-score ( 10<c<100 default 10)> -k <k-word size(default+recommended 5)>
+		$ afree -g1 <fasta_1> -g2 <fasta_2> -o <output file> -c <SD-score ( 10<c<100 default 10)> -k <k-word size(default+recommended 5)>
 
 	Example:
         The example folder contains the following FASTA files.
